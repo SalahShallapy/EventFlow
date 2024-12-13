@@ -47,12 +47,6 @@ EventFlow is a full-featured React Event Management Form component built with Re
 
 ## Project Structure
 
-└───public
-│ logo.png
-│ overview.png
-│ cart.png
-│ checkout.png
-
 ```
 EventFlow
 │      package-lock.json
