@@ -33,7 +33,7 @@ EventFlow is a full-featured React Event Management Form component built with Re
 - Create and Edit Events: Dynamically create new events or update existing ones with support for URL-based actions (POST, PATCH).
 - Form Handling: Collect title, image URL, date, and description from users with built-in input validation.
 - Seamless Navigation: Cancel button redirects smoothly with **useNavigate().**
-- State Management: **useNavigation()** hook shows form submission states (loading indicators).
+- State Management: `useNavigation()` hook shows form submission states (loading indicators).
 - Backend Integration: API communication with **fetch()** ensures reliable updates.
 - Error Handling: Graceful backend error responses with redirect actions.
 
