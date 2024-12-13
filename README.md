@@ -32,17 +32,17 @@ EventFlow is a full-featured React Event Management Form component built with Re
 
 - Create and Edit Events: Dynamically create new events or update existing ones with support for URL-based actions (POST, PATCH).
 - Form Handling: Collect title, image URL, date, and description from users with built-in input validation.
-- Seamless Navigation: Cancel button redirects smoothly with **useNavigate().**
+- Seamless Navigation: Cancel button redirects smoothly with `useNavigate().`
 - State Management: `useNavigation()` hook shows form submission states (loading indicators).
-- Backend Integration: API communication with **fetch()** ensures reliable updates.
+- Backend Integration: API communication with `fetch()` ensures reliable updates.
 - Error Handling: Graceful backend error responses with redirect actions.
 
 ## React Router Concepts Used
 
-- **useNavigate()** : Redirects users to the main events page or previous views.
-- **useNavigation()** : Provides UI state feedback during form submission.
-- Form Component: Utilizes React Router's native **<Form>** component for quick form action handling and validation.
-- Action Functions: Handles HTTP **POST** and **PATCH** requests to save or update events.
+- `useNavigate()` : Redirects users to the main events page or previous views.
+- `useNavigation()` : Provides UI state feedback during form submission.
+- Form Component: Utilizes React Router's native `<Form>` component for quick form action handling and validation.
+- Action Functions: Handles HTTP `POST` and `PATCH` requests to save or update events.
 - Redirect Responses: Automatically redirects users after form interactions.
 
 ## Project Structure
